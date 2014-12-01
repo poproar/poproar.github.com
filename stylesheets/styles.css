@@ -101,7 +101,7 @@ header {
   position:fixed;
 }
 
-header ul {
+/*header ul {
   list-style:none;
   height:40px;
   
@@ -157,7 +157,7 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
-}
+}*/
 
 section {
   width:500px;
@@ -252,4 +252,27 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+nav ul  {
+    margin: .5em 1em;padding:0;
+}
+nav ul li {
+    display:inline;
+    margin:5px;
+    border-radius: 5px;
+    padding: .5em 1em;
+}
+nav ul li:hover {
+  background-color: #A83D11;
+  color: #fff;
+    display:inline;
+    margin:5px;
+    border-radius: 5px;
+    padding: .5em 1em;
+}
+section {
+  padding:2em;
+  border: 2px solid;
+    border-radius: 25px;
+  box-shadow: 10px 10px 5px #888888;
 }
