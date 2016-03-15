@@ -3,7 +3,7 @@
 .avatar {
   padding:.5em;
   border: 2px solid;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 7px 7px 5px #888888;
   border-radius: 50px 15px;
 }
 
@@ -264,7 +264,7 @@ nav ul  {
     margin: .5em 1em;padding:0;
 }
 nav ul li {
-    display:inline;
+    /*display:inline;*/
     margin:5px;
     border-radius: 5px;
     padding: .5em 1em;
