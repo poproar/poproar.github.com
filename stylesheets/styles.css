@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
+.avatar {
+  border: 10px solid black;
+  border-radius: 50px 15px;
+}
+
 body {
   padding:50px;
   font: 1em 'Ubuntu', sans-serif;
