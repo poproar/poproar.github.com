@@ -28,7 +28,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  padding-top: 1em;
+  padding-top: .5em;
   font-size:28px;
 }
 
@@ -262,11 +262,12 @@ footer {
   }
 }
 nav ul  {
-    margin: .5em 1em;padding:0;
+    margin: .5em 1em;
+    padding:0;
 }
 nav ul li {
     /*display:inline;*/
-    margin:5px;
+    margin:.5em 1em;
     border-radius: 5px;
     padding: .5em 1em;
 }
@@ -274,7 +275,7 @@ nav ul li:hover {
   background-color: #A83D11;
   color: #fff;
     display:inline;
-    margin:5px;
+    margin:.5em 1em;
     border-radius: 5px;
     padding: .5em 1em;
 }
