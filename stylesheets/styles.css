@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
 .avatar {
-  border: 10px solid black;
+  padding:2em;
+  border: 2px solid;
+  box-shadow: 10px 10px 5px #888888;
   border-radius: 50px 15px;
 }
 
