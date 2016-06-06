@@ -13,4 +13,7 @@ vagrant up
 vagrant ssh
 ```
 
-Looks good so far. I am guessing that I will be creating a shell script to provision this damn thing to handle jekyll. Maybe I will search for a jekyll ready box. I know @rogerhoward set one up a successful script for codeandcoffee
+Looks good so far. I am guessing that I will be creating a shell script to provision this damn thing to handle jekyll. Maybe I will search for a jekyll ready box. 
+Well I followed an example of provision script and added my custom box settings.
+booted up and ran jekyll new
+so here i go...
