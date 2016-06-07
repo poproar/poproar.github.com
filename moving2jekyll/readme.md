@@ -20,19 +20,19 @@ so here i go...
 
 Found an old sitemap plan
 
-Home			-Why
-News			-What
-Bio			-Who
-	About
-Arts			-How
-	Music
-	Gallery
-	Blog
-Calendar		-When
-	Hosting
-	Attending
-	Planning
-Press
-Contact			-Where
 
-follow
+- Home(Why)
+- News(What)
+- Bio(Who)
+	+ About
+- Arts(How)
+	+ Music
+	+ Gallery
+	+ Blog
+- Calendar(When)
+	- Hosting
+	- Attending
+	- Planning
+- Press
+- Contact(Where)
+- follow
