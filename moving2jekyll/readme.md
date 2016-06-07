@@ -17,3 +17,22 @@ Looks good so far. I am guessing that I will be creating a shell script to provi
 Well I followed an example of provision script and added my custom box settings.
 booted up and ran jekyll new
 so here i go...
+
+Found an old sitemap plan
+
+Home			-Why
+News			-What
+Bio			-Who
+	About
+Arts			-How
+	Music
+	Gallery
+	Blog
+Calendar		-When
+	Hosting
+	Attending
+	Planning
+Press
+Contact			-Where
+
+follow
