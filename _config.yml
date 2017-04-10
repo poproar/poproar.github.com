@@ -16,9 +16,9 @@
 title: popROAR
 email: github-user@poproar.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my jekyll based github paged blog. You might have gotten here from my domain where I refer to this as reality. 
+  This is my jekyll based github paged blog. You might have gotten here from my domain where I refer to this as reality.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://poproar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: poproar
 github_username:  poproar
 
