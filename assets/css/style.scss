@@ -5,6 +5,7 @@
 
 .avatar {
   padding:.5em;
+  margin-bottom: 2em;
   border: 2px solid;
   box-shadow: 7px 7px 5px #888888;
   border-radius: 50px 15px;
@@ -16,28 +17,28 @@ body {
   font-weight:300;
 }
 
-/*nav ul  {
-    margin: .5em 1em;
-    padding:0;
-}
-nav ul li {
-    /*display:inline;*//*
-    margin:.5em 1em;
-    border-radius: 5px;
-    padding: .5em 1em;
-}
-nav ul li:hover {
-  background-color: #A83D11;
-  color: #fff;
-    display:inline;
-    margin:.5em 1em;
-    border-radius: 5px;
-    padding: .5em 1em;
-}*/
 section {
   padding:2em;
   margin-bottom: 2em;
   border: 2px solid;
     border-radius: 25px;
   box-shadow: 10px 10px 5px #888888;
+}
+
+header ul a:hover {
+  background-color:#39c;
+}
+
+header ul a.active {
+    background-color: #39c;
+}
+@media print, screen and (max-width: 480px) {
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+  #description {
+    // display: none;
+    font-size: .75em;
+  }
 }

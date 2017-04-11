@@ -147,11 +147,15 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  background-color:#39c;
 }
 
 header ul a:active {
   background-color:#f0f0f0;
+}
+
+header ul a.active {
+    background-color: #39c;
 }
 
 strong {

@@ -1,4 +1,5 @@
 ---
+title: Styles
 layout: default
 ---
 
