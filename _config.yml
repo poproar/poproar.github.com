@@ -15,10 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 title: popROAR
 email: github-user@poproar.com
+domain: .com
 description: > # this means to ignore newlines until "baseurl:"
   This is my jekyll based github paged blog. You might have gotten here from my domain where I refer to this as reality.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://poproar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+excerpt_separator: <!--more-->
 
 show_downloads: true
 # google_analytics:

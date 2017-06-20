@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Reality
 layout: default
 ---
 
@@ -11,4 +11,5 @@ This is the beginning of moving my static html github hosted blog to using jekyl
 
 > When something is important enough, you do it even if the odds are not in your favor.
 
-[Styling](styling).
+[to the Posts](posts).
+

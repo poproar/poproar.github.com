@@ -20,10 +20,11 @@
 
   {% if site.show_downloads %}
     <ul class=" ">
+      <li><a href="http://poproar.com" {% if node.url == page.url %}class="active"{% endif %}>RETURN<strong>{{site.domain | upcase}}</strong></a></li>
       {% assign sorted_pages = site.pages | sort:"order" %}
       {% for node in sorted_pages %}
         {% if node.title %}
-          <li><a href="{{site.baseurl}}{{node.url}}" {% if node.url == page.url %}class="active"{% endif %}>GOTO<strong>{{node.title | upcase}}</strong></a></li>
+          <li><a href="{{site.baseurl}}{{node.url}}" {% if node.url == page.url %}class="active"{% endif %}>{% if node.url == page.url  %}THIS{% else %}GOTO{% endif %}<strong>{{node.title | upcase}}</strong></a></li>
         {% endif %}
       {% endfor %}
     </ul>

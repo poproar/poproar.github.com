@@ -1,5 +1,5 @@
 ---
-title: Styles
+#title: Styles
 layout: default
 ---
 

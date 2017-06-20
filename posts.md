@@ -1,14 +1,11 @@
 ---
-title: Blog
+title: Posts
 layout: default
 ---
 
-# [](#header-1)Blogify
+{% for post in site.posts %}
 
-This is the beginning of moving my static html github hosted blog to using jekyll
+## [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) <small class="postdate"> _ {{ post.date | date: '%B %d, %Y' }}</small>
+{{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
 
-## [](#header-2)Uber style
-
-> When something is important enough, you do it even if the odds are not in your favor.
-
-[Styling](styling).
+{% endfor %}
