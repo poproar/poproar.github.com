@@ -1,7 +1,8 @@
 ---
 ---
+@import url(http://fonts.googleapis.com/css?family=Play|Cinzel+Decorative|Racing+Sans+One);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import "jekyll-theme-minimal";
+@import "{{site.theme}}";
 
 .avatar {
   padding:.5em;
@@ -11,10 +12,14 @@
   border-radius: 50px 15px;
 }
 
-body {
-  font: 1em 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+h2 , h2 a{
+  font-family: 'Racing Sans One', sans-serif;
+  color:#D1232A;
+}
+
+.postdate {
+  font-family: Ubuntu, sans-serif;
+  color: #333;
 }
 
 section {
@@ -32,12 +37,33 @@ section.pagination {
 }
 
 header ul a:hover {
-  background-color:#39c;
-}
+  background-color:#D1232A;
+}     
 
 header ul a.active {
-    background-color: #39c;
+    background-color: #D1232A;
 }
+
+.logo {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: .4em;
+  font-family: 'Racing Sans One', cursive;
+  /*font-size: 12em;*/
+}
+
+a.readmore, .cin {
+  font-family: 'Cinzel Decorative', cursive;
+  color:red; 
+  margin-left:-.12em;
+}
+
+.logostar {
+  color: red;
+  font-size: .75em;
+}
+
 @media print, screen and (max-width: 480px) {
   .avatar {
     width: 120px;
