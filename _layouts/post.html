@@ -16,7 +16,36 @@
       </section>
 
       <section class="pagination">
-        <button>Next</button>
+        {% capture the_collection %}{{page.collection}}{% endcapture %}
+{% if page.collection %}
+    {% assign document = site[the_collection] | sort: "order" | reversed %}
+{% endif %}
+
+{% for links in document %}
+    {% if links.title == page.title %}
+
+        {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+            {% assign prevtitle = prev.title %}
+        {% endunless %}
+
+        {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexturl = next.url %}
+            {% assign nexttitle = next.title %}
+        {% endunless %}
+
+    {% endif %}
+    {% assign prev = links %}
+{% endfor %}
+
+{% if prevurl or nexturl %}
+    <div class="post-nav">
+        {% if prevurl %}<a href="{{ site.baseurl }}{{prevurl}}" title="{{ prevtitle }}" class="prev">&laquo; NEWER &laquo; </a>{% endif %}
+        {% if nexturl %}<a href="{{ site.baseurl }}{{nexturl}}" title="{{ nexttitle }}" class="next">&raquo; OLDER &raquo;</a>{% endif %}
+    </div>
+{% endif %}
+
       </section>
 
       {% include footer.html %}
