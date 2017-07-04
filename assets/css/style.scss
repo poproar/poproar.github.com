@@ -73,6 +73,11 @@ a.readmore, .cin {
   margin-left:-.12em;
 }
 
+a.readmore:hover {
+  color: initial; 
+  text-decoration: underline;
+}
+
 .logostar {
   color: red;
   font-size: .75em;
