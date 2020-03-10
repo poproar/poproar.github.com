@@ -16,7 +16,7 @@ I been trying to break into software development after years of working with the
 - Developer
 
 #### Projects
-I am always wanting to start a new project and over the course of time I have learned to say no at the right time so I can be dedicated to the projects I am currently on whatever it may be. If you have a project in the pipeline, let's talk and find our balance so we can move forward with great success.
+I am always wanting to start a new project and over the course of time I have learned to say no at the right time so I can be dedicated to the projects I am currently on, whatever it may be. If you have a project in the pipeline, let's talk and find our balance so we can move forward with great success.
 
 ##### Funzies
  Open the console and learn more
