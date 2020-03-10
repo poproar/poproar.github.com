@@ -21,6 +21,6 @@ I am always wanting to start a new project and over the course of time I have le
 ##### Funzies
  Open the console and learn more
 
-<script src="javascripts/funzies.js"></script>
+<script src="/javascripts/funzies.js"></script>
 
  
